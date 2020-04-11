@@ -26,8 +26,8 @@ const buildCcp = () => new Promise((resolve, reject) => {
 
 buildCcp()
     .then((data) => {
-        console.log("datazzz", data);
+        console.log("data", data);
     })
     .catch((e) => {
-        console.log('errorzzz', e);
+        console.log('error', e);
     });
